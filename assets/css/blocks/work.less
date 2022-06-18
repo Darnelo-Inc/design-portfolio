@@ -1,10 +1,9 @@
 // main: ../style.less
 
 .work {
-    overflow: hidden;
-
     border-radius: 10px;
     box-shadow: 0 0 4px fade(#000, 25%);
+    overflow: hidden;
 
     transition: box-shadow .2s linear;
 
@@ -13,18 +12,18 @@
     }
 }
 
-.work__image {
+.work__img {
     display: block;
     max-width: 100%;
     height: auto;
 }
 
 .work__content {
-    padding: 1rem 0.8rem;
+    padding: 1rem .8rem;
 }
 
 .work__cat {
-    margin-bottom: 0.5rem;
+    margin-bottom: .5rem;
 
     font-size: .8rem;
     color: @black;
@@ -32,11 +31,21 @@
 }
 
 .work__title {
-    display: flex;
-    justify-content: space-between;
-
-    font-size: 1.06rem;
+    font-size: 1.07rem;
+    font-weight: 700;
     color: @black;
     text-transform: uppercase;
-    font-weight: 700;
 }
+
+.work__title {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
