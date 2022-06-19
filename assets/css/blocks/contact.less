@@ -7,12 +7,29 @@
 .contact__left {
     width: 48%;
     padding: 2rem;
+
+    @media @mobile {
+        width: 60%;
+    }
+
+    @media @mobile-sm {
+        width: 100%;
+        padding: 1.3rem;
+    }
 }
 
 .contact__right {
     width: 52%;
 
     background: @black url("https://via.placeholder.com/470x700") center no-repeat;
+
+    @media @mobile {
+        width: 40%;
+    }
+
+    @media @mobile-sm {
+        display: none;
+    }
 }
 
 .contact__info {

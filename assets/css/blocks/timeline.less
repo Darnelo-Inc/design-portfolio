@@ -4,6 +4,7 @@
     position: relative;
 
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     max-width: 768px;
     margin: 4.2rem auto;
@@ -20,6 +21,10 @@
         width: 1px;
 
         background-color: @black;
+
+        @media @mobile {
+            display: none;
+        }
     }
 }
 
@@ -34,6 +39,15 @@
 
     &--right {
         padding-left: 3.2rem;
+    }
+
+    @media @mobile {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        align-items: center;
+
+        text-align: center;
     }
 }
 
@@ -51,6 +65,14 @@
 
     &:last-child {
         margin-bottom: 0;
+
+        @media @mobile {
+            margin-bottom: 2.53rem;
+        }
+
+        @media @mobile-sm {
+            margin-bottom: 0;
+    }
     }
 }
 

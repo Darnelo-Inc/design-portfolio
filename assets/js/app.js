@@ -120,6 +120,22 @@ $(function() {
 
 
 
+    /* Mobile nav */
+
+    const nav = $("#nav");
+    const navToggle = $("#navToggle");
+
+    navToggle.on("click", function(event) {
+        event.preventDefault();
+
+        nav.toggleClass("show");
+
+
+    });
+
+
+
+
 
 
 
