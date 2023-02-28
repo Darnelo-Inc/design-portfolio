@@ -1,4 +1,4 @@
-# Des-Portfolio
+# Design portfolio
 Adaptive landing with modal windows, slider and post sorting
 
 
