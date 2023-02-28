@@ -1,2 +1,12 @@
 # Des-Portfolio
-Adaptive one-page layout of the site with modules (html5 + css3 + less + jquery)
+Adaptive landing with modal windows, slider and post sorting
+
+
+HTML 5 /
+CSS 3 /
+Less /
+jQuery
+
+For review: 
+    1. Download zip ->
+    2. Open index.html
