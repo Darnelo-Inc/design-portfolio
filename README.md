@@ -1,7 +1,6 @@
 # Design portfolio
 Adaptive landing with modal windows, slider and post sorting
 
-
 HTML 5 /
 CSS 3 /
 Less /
