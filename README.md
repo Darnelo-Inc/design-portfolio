@@ -1,4 +1,4 @@
-# Design portfolio
+# design-portfolio
 [Adaptive landing with modal windows, slider and post sorting](https://darnelo-inc.github.io/design-portfolio/)
 
 HTML / 
