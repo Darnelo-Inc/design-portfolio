@@ -1,11 +1,7 @@
 # Design portfolio
-Adaptive landing with modal windows, slider and post sorting
+[Adaptive landing with modal windows, slider and post sorting](https://darnelo-inc.github.io/design-portfolio/)
 
-HTML 5 /
-CSS 3 /
-Less /
-jQuery
-
-For review: 
-    1. Download zip ->
-    2. Open index.html
+HTML / 
+Less / 
+jQuery / 
+SlickSlider
